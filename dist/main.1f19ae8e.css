@@ -1,0 +1,19 @@
+header {
+  position: absolute;
+  width: 1920px;
+  height: 130px;
+  left: 0px;
+  top: 0px; }
+
+.ellipse {
+  position: absolute;
+  left: 375px;
+  top: 15px; }
+
+.letterInsideEllipse {
+  position: absolute;
+  left: 389px;
+  top: 18px; }
+
+
+/*# sourceMappingURL=/main.1f19ae8e.css.map */
