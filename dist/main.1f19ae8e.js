@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../.nvm/versions/node/v12.13.1/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"main.js":[function(require,module,exports) {
+},{"./fonts/Graphik_LC_Web_Bold/GraphikLCWeb-Bold.eot":[["GraphikLCWeb-Bold.7f0a9368.eot","fonts/Graphik_LC_Web_Bold/GraphikLCWeb-Bold.eot"],"fonts/Graphik_LC_Web_Bold/GraphikLCWeb-Bold.eot"],"./fonts/Graphik_LC_Web_Bold/GraphikLCWeb-Bold.woff":[["GraphikLCWeb-Bold.2d480b86.woff","fonts/Graphik_LC_Web_Bold/GraphikLCWeb-Bold.woff"],"fonts/Graphik_LC_Web_Bold/GraphikLCWeb-Bold.woff"],"./fonts/Graphik_LC_Web_Bold/GraphikLCWeb-Bold.ttf":[["GraphikLCWeb-Bold.08b54a5b.ttf","fonts/Graphik_LC_Web_Bold/GraphikLCWeb-Bold.ttf"],"fonts/Graphik_LC_Web_Bold/GraphikLCWeb-Bold.ttf"],"./fonts/Graphik_LC_Web_Bold/GraphikLCWeb-Bold.svg":[["GraphikLCWeb-Bold.8c779acf.svg","fonts/Graphik_LC_Web_Bold/GraphikLCWeb-Bold.svg"],"fonts/Graphik_LC_Web_Bold/GraphikLCWeb-Bold.svg"],"./fonts/Graphik_LC_Web_Regular/GraphikLCWeb-Regular.eot":[["GraphikLCWeb-Regular.c49779d8.eot","fonts/Graphik_LC_Web_Regular/GraphikLCWeb-Regular.eot"],"fonts/Graphik_LC_Web_Regular/GraphikLCWeb-Regular.eot"],"./fonts/Graphik_LC_Web_Regular/GraphikLCWeb-Regular.woff":[["GraphikLCWeb-Regular.599008d9.woff","fonts/Graphik_LC_Web_Regular/GraphikLCWeb-Regular.woff"],"fonts/Graphik_LC_Web_Regular/GraphikLCWeb-Regular.woff"],"./fonts/Graphik_LC_Web_Regular/GraphikLCWeb-Regular.ttf":[["GraphikLCWeb-Regular.c251d6fd.ttf","fonts/Graphik_LC_Web_Regular/GraphikLCWeb-Regular.ttf"],"fonts/Graphik_LC_Web_Regular/GraphikLCWeb-Regular.ttf"],"./fonts/Graphik_LC_Web_Regular/GraphikLCWeb-Regular.svg":[["GraphikLCWeb-Regular.9a090a97.svg","fonts/Graphik_LC_Web_Regular/GraphikLCWeb-Regular.svg"],"fonts/Graphik_LC_Web_Regular/GraphikLCWeb-Regular.svg"],"./fonts/Graphik_Medium_Web/Graphik-Medium-Web.eot":[["Graphik-Medium-Web.4be755d6.eot","fonts/Graphik_Medium_Web/Graphik-Medium-Web.eot"],"fonts/Graphik_Medium_Web/Graphik-Medium-Web.eot"],"./fonts/Graphik_Medium_Web/Graphik-Medium-Web.woff":[["Graphik-Medium-Web.505248ab.woff","fonts/Graphik_Medium_Web/Graphik-Medium-Web.woff"],"fonts/Graphik_Medium_Web/Graphik-Medium-Web.woff"],"./fonts/Graphik_Medium_Web/Graphik-Medium-Web.ttf":[["Graphik-Medium-Web.f32a2c10.ttf","fonts/Graphik_Medium_Web/Graphik-Medium-Web.ttf"],"fonts/Graphik_Medium_Web/Graphik-Medium-Web.ttf"],"./fonts/Graphik_Medium_Web/Graphik-Medium-Web.svg":[["Graphik-Medium-Web.f0a6764f.svg","fonts/Graphik_Medium_Web/Graphik-Medium-Web.svg"],"fonts/Graphik_Medium_Web/Graphik-Medium-Web.svg"],"_css_loader":"../../../.nvm/versions/node/v12.13.1/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"main.js":[function(require,module,exports) {
 "use strict";
 
 require("./main.scss");
@@ -221,7 +221,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "40655" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37311" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

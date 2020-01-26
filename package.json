@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Nikita-Lutsishin/module_2#readme",
   "devDependencies": {
+    "cssnano": "^4.1.10",
     "pug": "^2.0.4"
   }
 }

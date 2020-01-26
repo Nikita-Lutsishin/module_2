@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'Graphik Cy Bold';
+  src: url("/GraphikLCWeb-Bold.7f0a9368.eot");
+  src: url("/GraphikLCWeb-Bold.2d480b86.woff") format("woff"), url("/GraphikLCWeb-Bold.08b54a5b.ttf") format("truetype"), url("/GraphikLCWeb-Bold.8c779acf.svg") format("svg"); }
+
+@font-face {
+  font-family: 'Graphik LC Web';
+  src: url("/GraphikLCWeb-Regular.c49779d8.eot");
+  src: url("/GraphikLCWeb-Regular.599008d9.woff") format("woff"), url("/GraphikLCWeb-Regular.c251d6fd.ttf") format("truetype"), url("/GraphikLCWeb-Regular.9a090a97.svg") format("svg"); }
+
+@font-face {
+  font-family: 'Graphik Cy Regular';
+  src: url("/Graphik-Medium-Web.4be755d6.eot");
+  src: url("/Graphik-Medium-Web.505248ab.woff") format("woff"), url("/Graphik-Medium-Web.f32a2c10.ttf") format("truetype"), url("/Graphik-Medium-Web.f0a6764f.svg") format("svg"); }
+
 header {
   position: absolute;
   width: 1920px;
@@ -11,9 +26,23 @@ header {
   top: 15px; }
 
 .letterInsideEllipse {
+  color: white;
   position: absolute;
-  left: 389px;
-  top: 18px; }
+  left: 390px;
+  top: 28px; }
+
+p {
+  position: absolute;
+  left: 474px;
+  top: 45px;
+  font-family: Graphik Cy, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #8890A1; }
 
 
 /*# sourceMappingURL=/main.1f19ae8e.css.map */

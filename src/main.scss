@@ -1,3 +1,21 @@
+@font-face {
+  font-family: 'Graphik Cy Bold';
+  src: url("../src/fonts/Graphik_LC_Web_Bold/GraphikLCWeb-Bold.eot");
+  src: url("../src/fonts/Graphik_LC_Web_Bold/GraphikLCWeb-Bold.woff") format('woff'), url("../src/fonts/Graphik_LC_Web_Bold/GraphikLCWeb-Bold.ttf") format('truetype'), url("../src/fonts/Graphik_LC_Web_Bold/GraphikLCWeb-Bold.svg") format('svg');
+}
+
+@font-face {
+  font-family: 'Graphik LC Web';
+  src: url("../src/fonts/Graphik_LC_Web_Regular/GraphikLCWeb-Regular.eot");
+  src: url("../src/fonts/Graphik_LC_Web_Regular/GraphikLCWeb-Regular.woff") format('woff'), url("../src/fonts/Graphik_LC_Web_Regular/GraphikLCWeb-Regular.ttf") format('truetype'), url("../src/fonts/Graphik_LC_Web_Regular/GraphikLCWeb-Regular.svg") format('svg');
+}
+
+@font-face {
+  font-family: 'Graphik Cy Regular';
+  src: url("../src/fonts/Graphik_Medium_Web/Graphik-Medium-Web.eot");
+  src: url("../src/fonts/Graphik_Medium_Web/Graphik-Medium-Web.woff") format('woff'), url("../src/fonts/Graphik_Medium_Web/Graphik-Medium-Web.ttf") format('truetype'), url("../src/fonts/Graphik_Medium_Web/Graphik-Medium-Web.svg") format('svg');
+}
+
 header {
   position: absolute;
   width: 1920px;
@@ -13,7 +31,24 @@ header {
 }
 
 .letterInsideEllipse {
+  color: white;
   position: absolute;
-  left: 389px;
-  top: 18px;
+  left: 390px;
+  top: 28px;
+}
+
+p {
+  position: absolute;
+  left: 474px;
+  top: 45px;
+
+  font-family: Graphik Cy, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #8890A1;
 }
