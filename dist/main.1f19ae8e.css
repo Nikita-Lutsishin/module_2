@@ -31,11 +31,13 @@ header {
   left: 390px;
   top: 28px; }
 
-p {
+.privateBanking {
+  border: none;
+  background: none;
   position: absolute;
-  left: 474px;
   top: 45px;
-  font-family: Graphik Cy, serif;
+  left: 474px;
+  font-family: Graphik LC Web, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -43,6 +45,116 @@ p {
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #8890A1; }
+
+.aboutBank {
+  border: none;
+  background: none;
+  position: absolute;
+  left: 634px;
+  top: 45px;
+  font-family: Graphik LC Web, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #8890A1; }
+
+.officesAndATMs {
+  border: none;
+  background: none;
+  position: absolute;
+  left: 1191px;
+  top: 45px;
+  font-family: Graphik LC Web, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #8890A1; }
+
+.lang {
+  border: none;
+  background: none;
+  position: absolute;
+  left: 1384px;
+  top: 45px;
+  font-family: Graphik LC Web, serif;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #8890A1; }
+
+.number {
+  border: none;
+  background: none;
+  position: absolute;
+  left: 1437px;
+  top: 45px;
+  font-family: Graphik LC Web, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height */
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FF5D39; }
+
+.line {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 75px;
+  bottom: 41.54%;
+  background: rgba(136, 144, 161, 0.2); }
+
+.privateClients {
+  border: none;
+  background: none;
+  position: absolute;
+  left: 375px;
+  top: 99px;
+  font-family: Graphik Cy Bold, serif;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height */
+  color: #000000; }
+
+.coopClients {
+  border: none;
+  background: none;
+  position: absolute;
+  left: 554px;
+  top: 99px;
+  font-family: Graphik Cy Bold, serif;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height */
+  color: #000000; }
+
+.marketService {
+  border: none;
+  background: none;
+  position: absolute;
+  left: 785px;
+  top: 99px;
+  font-family: Graphik Cy Bold, serif;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height */
+  color: #000000; }
+
+.searchIcon {
+  position: absolute;
+  left: 1530px;
+  right: 19.53%;
+  top: 99px;
+  bottom: 12.31%; }
 
 
 /*# sourceMappingURL=/main.1f19ae8e.css.map */
