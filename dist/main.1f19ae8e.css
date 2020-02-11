@@ -17,19 +17,28 @@ header {
   position: absolute;
   width: 1920px;
   height: 130px;
-  left: 0px;
-  top: 0px; }
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 0; }
+
+body {
+  margin: 0; }
 
 .ellipse {
   position: absolute;
   left: 375px;
-  top: 15px; }
+  top: 15px;
+  margin: 0;
+  padding: 0; }
 
 .letterInsideEllipse {
   color: white;
   position: absolute;
   left: 390px;
-  top: 28px; }
+  top: 28px;
+  margin: 0;
+  padding: 0; }
 
 .privateBanking {
   border: none;
@@ -44,7 +53,9 @@ header {
   line-height: 13px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #8890A1; }
+  color: #8890A1;
+  margin: 0;
+  padding: 0; }
 
 .aboutBank {
   border: none;
@@ -59,7 +70,9 @@ header {
   line-height: 13px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #8890A1; }
+  color: #8890A1;
+  margin: 0;
+  padding: 0; }
 
 .officesAndATMs {
   border: none;
@@ -74,7 +87,9 @@ header {
   line-height: 13px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #8890A1; }
+  color: #8890A1;
+  margin: 0;
+  padding: 0; }
 
 .lang {
   border: none;
@@ -87,7 +102,9 @@ header {
   line-height: 13px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #8890A1; }
+  color: #8890A1;
+  margin: 0;
+  padding: 0; }
 
 .number {
   border: none;
@@ -103,15 +120,19 @@ header {
   /* identical to box height */
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #FF5D39; }
+  color: #FF5D39;
+  margin: 0;
+  padding: 0; }
 
 .line {
   position: absolute;
-  left: 0%;
-  right: 0%;
+  left: 0;
+  right: 0;
   top: 75px;
   bottom: 41.54%;
-  background: rgba(136, 144, 161, 0.2); }
+  background: rgba(136, 144, 161, 0.2);
+  margin: 0;
+  padding: 0; }
 
 .privateClients {
   border: none;
@@ -123,7 +144,9 @@ header {
   font-size: 14px;
   line-height: 14px;
   /* identical to box height */
-  color: #000000; }
+  color: #000000;
+  margin: 0;
+  padding: 0; }
 
 .coopClients {
   border: none;
@@ -135,7 +158,9 @@ header {
   font-size: 14px;
   line-height: 14px;
   /* identical to box height */
-  color: #000000; }
+  color: #000000;
+  margin: 0;
+  padding: 0; }
 
 .marketService {
   border: none;
@@ -147,14 +172,83 @@ header {
   font-size: 14px;
   line-height: 14px;
   /* identical to box height */
-  color: #000000; }
+  color: #000000;
+  margin: 0;
+  padding: 0; }
 
 .searchIcon {
   position: absolute;
   left: 1530px;
   right: 19.53%;
   top: 99px;
-  bottom: 12.31%; }
+  bottom: 12.31%;
+  margin: 0;
+  padding: 0; }
+
+main {
+  margin: 0;
+  padding: 0;
+  display: block; }
+
+h1 {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 1920px;
+  height: 590px;
+  left: 0px;
+  top: 130px;
+  background: #ECF4D5; }
+
+.p_1 {
+  position: absolute;
+  width: 739px;
+  height: 160px;
+  left: 370px;
+  top: 233px;
+  font-family: Graphik Cy Regular, serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 80px;
+  letter-spacing: 0.01em;
+  /* or 114% */
+  color: #000000;
+  margin: 0;
+  padding: 0; }
+
+.p_2 {
+  position: absolute;
+  width: 481px;
+  height: 50px;
+  left: 374px;
+  top: 415px;
+  font-family: Graphik Cy Regular, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  /* or 139% */
+  color: #8890A1; }
+
+.request {
+  position: absolute;
+  width: 250px;
+  height: 70px;
+  left: 375px;
+  top: 516px;
+  background: #003DB1;
+  border: none;
+  color: #FFFFFF;
+  font-family: Graphik Cy Regular, serif; }
+
+.img_1 {
+  border-style: none;
+  position: absolute;
+  width: 422px;
+  height: 639px;
+  left: 1180px;
+  top: 80px; }
 
 
 /*# sourceMappingURL=/main.1f19ae8e.css.map */
