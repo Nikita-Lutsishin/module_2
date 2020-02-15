@@ -129,10 +129,7 @@ body {
   left: 0;
   right: 0;
   top: 75px;
-  bottom: 41.54%;
-  background: rgba(136, 144, 161, 0.2);
-  margin: 0;
-  padding: 0; }
+  bottom: 41.54%; }
 
 .privateClients {
   border: none;
@@ -198,7 +195,7 @@ h1 {
   height: 590px;
   left: 0px;
   top: 130px;
-  background: #ECF4D5; }
+  background: #CEDEEC; }
 
 .p_1 {
   position: absolute;
@@ -249,6 +246,27 @@ h1 {
   height: 639px;
   left: 1180px;
   top: 80px; }
+
+.ellipseUnactive {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 375px;
+  top: 616px; }
+
+.ellipseUnactive2 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 395px;
+  top: 616px; }
+
+.ellipseActive {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 415px;
+  top: 616px; }
 
 
 /*# sourceMappingURL=/main.1f19ae8e.css.map */
