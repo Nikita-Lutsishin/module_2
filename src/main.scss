@@ -218,11 +218,13 @@ body{
   margin: 0;
   padding: 0;
 }
+
 main {
   margin: 0;
   padding: 0;
   display: block;
 }
+
 h1 {
   margin: 0;
   padding: 0;
@@ -234,12 +236,13 @@ h1 {
 
   background: #CEDEEC;
 }
+
 .p_1 {
   position: absolute;
   width: 739px;
   height: 160px;
   left: 370px;
-  top: 233px;
+  top: 103px;
 
   font-family: Graphik Cy Regular, serif;
   font-style: normal;
@@ -260,7 +263,7 @@ h1 {
   width: 481px;
   height: 50px;
   left: 374px;
-  top: 415px;
+  top: 285px;
 
   font-family: Graphik Cy Regular, serif ;
   font-style: normal;
@@ -278,7 +281,7 @@ h1 {
   width: 250px;
   height: 70px;
   left: 375px;
-  top: 516px;
+  top: 386px;
   background: #003DB1;
   border: none;
   color: #FFFFFF;
@@ -291,26 +294,117 @@ h1 {
   width: 422px;
   height: 639px;
   left: 1180px;
-  top: 80px;
+  top: -49px;
 }
+
 .ellipseUnactive {
   position: absolute;
   width: 10px;
   height: 10px;
   left: 375px;
-  top: 616px;
+  top: 486px;
 }
+
 .ellipseUnactive2 {
   position: absolute;
   width: 10px;
   height: 10px;
   left: 395px;
-  top: 616px;
+  top: 486px;
 }
+
 .ellipseActive {
   position: absolute;
   width: 10px;
   height: 10px;
   left: 415px;
-  top: 616px;
+  top: 486px;
+}
+
+.p_favours {
+  position: absolute;
+  width: 545px;
+  height: 80px;
+  left: 375px;
+  top: 794px;
+
+  font-family: Graphik Cy Regular, serif;
+  font-size: 35px;
+  line-height: 80px;
+
+  /* identical to box height, or 229% */
+
+  color: #000000;
+}
+
+.firstFavour {
+  position: absolute;
+  width: 570px;
+  height: 360px;
+  left: 375px;
+  top: 895px;
+
+  background: #ACACCD;
+}
+
+.brokerService {
+  position: absolute;
+  width: 187px;
+  height: 44px;
+  left: 30px;
+  top: 16px;
+
+  font-family: Graphik Cy Regular, serif;
+  font-size: 12px;
+  line-height: 80px;
+
+  /* or 667% */
+  text-transform: uppercase;
+
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.personalService {
+  position: absolute;
+  width: 343px;
+  height: 60px;
+  left: 29px;
+  top: 107px;
+
+  font-family: Graphik Cy Regular, serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+
+  /* or 120% */
+
+  color: #FFFFFF;
+}
+
+.freeInput {
+  position: absolute;
+  padding-top: 14px;
+  width: 346px;
+  height: 60px;
+  left: 29px;
+  top: 181px;
+
+  font-family: Graphik Cy Regular, serif;
+  font-size: 14px;
+  line-height: 20px;
+
+  /* or 143% */
+
+  color: #FFFFFF;
+}
+
+.secondFavour {
+  position: absolute;
+  width: 570px;
+  height: 360px;
+  left: 975px;
+  top: 895px;
+
+  background: #BEA08B;
 }
